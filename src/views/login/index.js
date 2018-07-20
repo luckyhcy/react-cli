@@ -40,7 +40,7 @@ class Login extends React.Component {
                                 </Row>
                                 <Row>
                                     <Col span={24}>
-                                        <div className={css['left-txt']}>小管家后台管理系统</div>
+                                        <div className={css['left-txt']}>后台管理系统</div>
                                     </Col>
                                 </Row>
                             </div>

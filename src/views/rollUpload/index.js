@@ -38,7 +38,7 @@ class Index extends React.Component {
                 <div className={css['rollUpload-box']}>
                     <Row>
                         <Col span="24" className={css['rollUpload-Box-header']}>
-                            领券名单上传
+                            XX
                         </Col>
                     </Row>
                     <Row className={css['rollUpload-Box-con']} gutter={5}>

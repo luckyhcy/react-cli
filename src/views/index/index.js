@@ -26,7 +26,7 @@ class Index extends React.Component {
                                     <div className={css.circle}/>
                                 </Col>
                                 <Col span="21">
-                                    小当家后台管理系统
+                                    后台管理系统
                                 </Col>
                             </Row>
                         </div>
