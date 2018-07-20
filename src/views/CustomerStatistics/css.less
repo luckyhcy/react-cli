@@ -1,0 +1,59 @@
+.CustomerStatistics {
+  .CustomerStatistics-searchBox {
+    width: 98.5%;
+    background-color: white;
+    margin-left: 1.5%;
+    .CustomerStatistics-searchBox-header {
+      background-color: rgb(246, 248, 248);
+      height: 37px;
+      line-height: 37px;
+      padding-left: 23px;
+      font-size: 12px;
+      position: relative;
+      font-weight: bold;
+      &:before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        left: 10px;
+        top: 13px;
+        background-color: rgb(52, 136, 221);
+      }
+    }
+    .CustomerStatistics-searchBox-con {
+      padding: 20px;
+      font-size: 12px;
+      text-align: center;
+      .CustomerStatistics-label {
+        height: 36px;
+        line-height: 36px;
+        .CustomerStatistics-searchButton {
+          width: 40%;
+        }
+      }
+    }
+  }
+  .CustomerStatistics-table-con {
+    width: 98.5%;
+    margin-left: 1.5%;
+    padding-top: 15px;
+    .is-leaf{
+      background-color: #20a0ff;
+      border-right: none;
+      .cell{
+        background-color: #20a0ff;
+        color: white;
+      }
+    }
+  }
+  .CustomerStatistics-pag{
+    width: 98.5%;
+    margin-left: 1.5%;
+    padding: 15px 0;
+    text-align: right;
+    .el-pagination{
+      margin-right: 15px;
+    }
+  }
+}

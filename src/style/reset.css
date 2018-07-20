@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.login .ant-checkbox-wrapper {
+    color: white;
+}
+
+#slideCon {
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-top: 4px solid black;
+    padding: 10px;
+}
+#slideCon .int-breadcrumb {
+    padding: 15px 0 15px 20px;
+}
